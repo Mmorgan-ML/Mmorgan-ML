@@ -23,7 +23,7 @@ I specialize in **Python** and **PyTorch**. My work often requires going deeper 
 
 ### ⚡ Featured Projects
 
-#### 1. Evolutionary MicroTransformer Framework
+#### [1. Evolutionary MicroTransformer Framework](https://github.com/Mmorgan-ML/Neural-Speciation)
 *A massive-scale evolutionary simulator for hyperparameter optimization and artificial life.*
 
 This project is a comprehensive framework that pits populations of "MicroTransformers" (10k parameters) against each other in a survival-of-the-fittest environment based on validation loss performance.
@@ -33,7 +33,7 @@ This project is a comprehensive framework that pits populations of "MicroTransfo
 *   **Stress Chamber:** A rigorous testing module for collecting performance data on specific genomes across random seeds.
 *   **Speciation Dashboard:** Uses **PCA** to map 17-dimensional gene data onto a 3D interactive graph. It utilizes clustering to automatically categorize agents into taxonomic ranks (Kingdom, Phylum, Class, etc.), visualizing how distinct survival strategies evolve divergently.
 
-#### 2. Neuromodulatory Control Network (NCN)
+#### [2. Neuromodulatory Control Network (NCN)](https://github.com/Mmorgan-ML/Neuromodulatory-Control-Networks)
 *A novel LLM architecture inspired by the human brain's neuromodulatory systems.*
 
 This architecture moves beyond standard Transformers by implementing a global modulation mechanism.
@@ -42,7 +42,7 @@ This architecture moves beyond standard Transformers by implementing a global mo
 *   **Optimization:** Includes custom C++/CUDA kernels to handle the specific computational requirements of the modulation layers.
 *   *(Paper currently in pre-print phase).*
 
-#### 3. Entropy-Based KV-Cache Sampler
+#### [3. Entropy-Based KV-Cache Sampler](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
 *Available on PyPI.*
 
 A novel inference sampler designed to prevent LLM looping and degradation.
