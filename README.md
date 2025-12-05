@@ -26,6 +26,10 @@ I specialize in **Python** and **PyTorch**. My work often requires going deeper 
 #### [1. Evolutionary MicroTransformer Framework](https://github.com/Mmorgan-ML/Neural-Speciation)
 *A massive-scale evolutionary simulator for hyperparameter optimization and artificial life.*
 
+<img width="1919" height="1023" alt="evolution_lab" src="https://github.com/user-attachments/assets/5a126142-1443-4514-aa3e-ba6acb47b63b" />
+
+<img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/5fb30865-b350-4277-ac23-fc9d2515985f" />
+
 This project is a comprehensive framework that pits populations of "MicroTransformers" (10k parameters) against each other in a survival-of-the-fittest environment based on validation loss performance.
 *   **The Genome:** Agents possess 17 "genes" representing initialization hyperparameters.
 *   **Lifecycle:** Agents fight, breed, mutate, clone, and evolve over generations.
@@ -36,6 +40,8 @@ This project is a comprehensive framework that pits populations of "MicroTransfo
 #### [2. Neuromodulatory Control Network (NCN)](https://github.com/Mmorgan-ML/Neuromodulatory-Control-Networks)
 *A novel LLM architecture inspired by the human brain's neuromodulatory systems.*
 
+<img width="1200" height="700" alt="18M perplexity step 4500" src="https://github.com/user-attachments/assets/8e0091e9-dbb7-467e-baca-00c41f0ffc75" />
+
 This architecture moves beyond standard Transformers by implementing a global modulation mechanism.
 *   **Mechanism:** Functions similarly to a hypernetwork but outputs modulation signals that dynamically adjust the **Temperature, Gain, and FFN Gating** of the main network blocks.
 *   **Implicit Learning:** The network learns to contextually identify which modulation signals minimize loss without explicit supervision.
@@ -44,6 +50,9 @@ This architecture moves beyond standard Transformers by implementing a global mo
 
 #### [3. Entropy-Based KV-Cache Sampler](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
 *Available on PyPI.*
+
+<img width="1080" height="757" alt="image" src="https://github.com/user-attachments/assets/77c7f9da-c018-43b2-b21b-39b7d06f4d8b" />
+
 
 A novel inference sampler designed to prevent LLM looping and degradation.
 *   **Method:** Monitors the entropy of the model's output in real-time.
