@@ -64,4 +64,4 @@ A novel inference sampler designed to prevent LLM looping and degradation.
 I am currently open to job offers and research collaborations (Remote preferred).
 
 *   **Email:** [mmorgankorea@gmail.com](mailto:mmorgankorea@gmail.com)
-*   **Twitter/X:** [@Mmorgan-ML](https://twitter.com/Mmorgan_ML) (DMs open)
+*   **Twitter/X:** [@Mmorgan_ML](https://twitter.com/Mmorgan_ML) (DMs open)
