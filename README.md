@@ -40,7 +40,9 @@ This project is a comprehensive framework that pits populations of "MicroTransfo
 #### [2. Neuromodulatory Control Network (NCN)](https://github.com/Mmorgan-ML/Neuromodulatory-Control-Networks)
 *A novel LLM architecture inspired by the human brain's neuromodulatory systems.*
 
-<img width="3600" height="2100" alt="convergence_analysis" src="https://github.com/user-attachments/assets/525aba97-b30f-4a1a-b8de-7c4b80beaf69" />
+<img width="3600" height="2100" alt="convergence_analysis" src="https://github.com/user-attachments/assets/1c7e050e-4bbd-4fa6-9c12-97e474885514" />
+<img width="4200" height="2400" alt="analysis_grammar_95" src="https://github.com/user-attachments/assets/2c23e4c0-af04-499d-9636-6177d0d323f6" />
+<img width="4200" height="2400" alt="analysis_intellectual_99" src="https://github.com/user-attachments/assets/98a80526-7349-4cf2-b330-4b42633d9693" />
 
 This architecture moves beyond standard Transformers by implementing a global modulation mechanism.
 *   **Mechanism:** Functions similarly to a hypernetwork but outputs modulation signals that dynamically adjust the **Temperature, Gain, and FFN Gating** of the main network blocks.
