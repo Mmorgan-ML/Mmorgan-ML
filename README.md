@@ -40,15 +40,25 @@ This project is a comprehensive framework that pits populations of "MicroTransfo
 #### [2. Neuromodulatory Control Network (NCN)](https://github.com/Mmorgan-ML/Neuromodulatory-Control-Networks)
 *A novel LLM architecture inspired by the human brain's neuromodulatory systems.*
 
-<img width="3600" height="2100" alt="convergence_analysis" src="https://github.com/user-attachments/assets/1c7e050e-4bbd-4fa6-9c12-97e474885514" />
-<img width="4200" height="2400" alt="analysis_grammar_95" src="https://github.com/user-attachments/assets/2c23e4c0-af04-499d-9636-6177d0d323f6" />
-<img width="4200" height="2400" alt="analysis_intellectual_99" src="https://github.com/user-attachments/assets/98a80526-7349-4cf2-b330-4b42633d9693" />
+Successfully trained 18M param model on 1 epoch of TinyStories, achieving 4.5 PPL.
+
+<img width="1536" height="765" alt="Neuromodulation" src="https://github.com/user-attachments/assets/5c11139e-545f-47e3-8946-07e0fbdd5dea" />
+(Fig 1) Token-Level Neuromodulatory Dynamics. Heatmaps display the NCN output values for Layer Gain (Top), Attention Precision (Middle), and FFN Gating (Bottom). X-axis represents the token sequence; Y-axis represents Layer Depth (0-5).
+
+<img width="3600" height="2100" alt="perplexity_graph" src="https://github.com/user-attachments/assets/486b9f4f-084d-40a5-85dc-5fe1815409e9" />
+(Fig 2) Training Convergence Analysis. The NCN model demonstrates rapid perplexity reduction, stabilizing significantly below standard baselines for this parameter class. The dark blue line represents the macro-trend (span=118), showing a smooth descent without the volatility typically associated with hypernetwork training.
+
+<img width="4200" height="2400" alt="analysis_grammar_95" src="https://github.com/user-attachments/assets/761a71c0-eac5-4d7d-8d1d-6928fd3648ca" />
+(Fig 3) Grammar/Syntax Convergence (95%). The dashed blue line indicates a steep power-law fit, suggesting rapid acquisition of surface-level statistics.
+
+<img width="4200" height="2400" alt="analysis_intellectual_99" src="https://github.com/user-attachments/assets/952965fb-17e1-4a2d-b722-a934da90797b" />
+(Fig 4) Intellectual Convergence (99%). The "Active Phase" (Red) tightly hugs the power law, indicating sustained learning of higher-order logic without premature plateaus.
 
 This architecture moves beyond standard Transformers by implementing a global modulation mechanism.
 *   **Mechanism:** Functions similarly to a hypernetwork but outputs modulation signals that dynamically adjust the **Temperature, Gain, and FFN Gating** of the main network blocks.
 *   **Implicit Learning:** The network learns to contextually identify which modulation signals minimize loss without explicit supervision.
 *   **Optimization:** Includes custom C++/CUDA kernels to handle the specific computational requirements of the modulation layers.
-*   *(Paper currently in pre-print phase).*
+*   *(Paper currently in pre-print phase, includes preliminary empirical results).*
 
 #### [3. Entropy-Based KV-Cache Sampler](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
 *Available on PyPI.*
