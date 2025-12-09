@@ -63,6 +63,7 @@ This architecture moves beyond standard Transformers by implementing a global mo
 
 #### [3. Entropy-Based KV-Cache Sampler](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
 *Available on PyPI.*
+*Warning: Current implementation causes massive hallucinations. WIP.*
 
 <img width="1080" height="757" alt="image" src="https://github.com/user-attachments/assets/77c7f9da-c018-43b2-b21b-39b7d06f4d8b" />
 
