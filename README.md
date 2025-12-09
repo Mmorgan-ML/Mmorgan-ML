@@ -54,6 +54,7 @@ Successfully trained 18M param model on 1 epoch of TinyStories, achieving 4.5 PP
 <img width="4200" height="2400" alt="analysis_intellectual_99" src="https://github.com/user-attachments/assets/952965fb-17e1-4a2d-b722-a934da90797b" />
 (Fig 4) Intellectual Convergence (99%). The "Active Phase" (Red) tightly hugs the power law, indicating sustained learning of higher-order logic without premature plateaus.
 
+
 This architecture moves beyond standard Transformers by implementing a global modulation mechanism.
 *   **Mechanism:** Functions similarly to a hypernetwork but outputs modulation signals that dynamically adjust the **Temperature, Gain, and FFN Gating** of the main network blocks.
 *   **Implicit Learning:** The network learns to contextually identify which modulation signals minimize loss without explicit supervision.
