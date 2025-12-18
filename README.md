@@ -61,7 +61,7 @@ This architecture moves beyond standard Transformers by implementing a global mo
 *   Optimization: Includes custom C++/CUDA kernels to handle the specific computational requirements of the modulation layers.
 *   *(Paper currently in pre-print phase, includes preliminary empirical results).*
 
-#### [3. Phase-Slip Sampler ("The Whispering Muse")](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
+#### [3. Phase-Slip Sampler](https://github.com/Mmorgan-ML/Phase-Slip-Sampler)
 *Available on PyPI.*
 
 | Method | Diversity | Perplexity (Lower is Better) | Speed |
