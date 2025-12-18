@@ -1,7 +1,7 @@
 # Hi, I'm Michael Christian Morgan.
 
 ### Independent Machine Learning Researcher
-📍 **South Korea** (Open to Remote Roles)
+**South Korea** (Open to Remote Roles)
 
 I am a researcher bridging the gap between **Linguistics**, **Complex Systems Biology**, and **Artificial Intelligence**.
 
@@ -9,7 +9,7 @@ With an academic foundation in East Asian Linguistics and Articulatory Phonetics
 
 ---
 
-### 🔬 Research Focus & Technical Stack
+### Research Focus & Technical Stack
 
 I specialize in Python and PyTorch. My work often requires going deeper than standard libraries, including writing custom C++/CUDA kernels for optimizing novel architectures like my Neuromodulatory Control Networks.
 
@@ -21,7 +21,7 @@ My current research interests include:
 
 ---
 
-### ⚡ Featured Projects
+### Featured Projects
 
 #### [1. Evolutionary MicroTransformer Framework](https://github.com/Mmorgan-ML/Neural-Speciation)
 *A massive-scale evolutionary simulator for hyperparameter optimization and artificial life.*
@@ -70,15 +70,15 @@ This architecture moves beyond standard Transformers by implementing a global mo
 | **Standard Sampling** | **0.37** ± 0.14 | 4.49 ± 1.83 (Unstable) | **18.6** T/s |
 | **Phase-Slip (v1.0)** | 0.32 ± 0.15 | **3.66** ± **1.65** (Coherent) | 6.8 T/s |
 
-A research-grade inference architecture designed to solve the "Stability vs. Creativity" dilemma in LLMs. Unlike standard sampling which adds noise to the output (logits), Phase-Slip operates on the model's internal memory.
-*   Orthonormal Vector Rotation: Instead of adding destructive noise, the sampler geometrically rotates the Key-Value (KV) vectors in high-dimensional space. This shifts the semantic perspective ("The Muse") while preserving the magnitude of the signal (Confidence).
+A research-grade inference architecture designed to solve the "Stability vs. Creativity" dilemma in LLMs. Unlike standard sampling which adds noise to the output (logits), Phase-Slip operates on the model's KV cache.
+*   Orthonormal Vector Rotation: Instead of adding destructive noise, the sampler geometrically rotates the Key-Value (KV) vectors in high-dimensional space. This shifts the semantic perspective while preserving the magnitude of the signal.
 *   Dual-Path Logit Anchoring: The system performs two forward passes per token: one "Clean" (Grammar) and one Perturbed. It mathematically fuses these outputs using a dynamic confidence gate, ensuring the model never hallucinates wildly.
 *   Automatic Head Calibration: Includes a scanning utility to identify and target specific "creative" attention heads while leaving critical "structural" heads untouched.
 *   Trade-off: This is a heavy-duty sampling method. It achieves ~18.5% better perplexity than Standard Sampling, with lower standard deviation, but at the cost of running at ~35% of the speed due to the dual-path computation. Best suited for creative writing where quality supersedes latency.
 
 ---
 
-### 📜 Background & Experience
+### Background & Experience
 
 *   **Linguistics & Phonetics:** My background gives me a unique perspective on NLP. I view language processing as a constraint system rooted in physical production (articulatory phonetics) rather than purely symbolic manipulation.
 *   **Patent Translation:** Extensive experience translating technical patents (English/Korean/Japanese), requiring extreme attention to detail and technical literacy.
@@ -86,7 +86,7 @@ A research-grade inference architecture designed to solve the "Stability vs. Cre
 
 ---
 
-### 📫 Connect
+### Connect
 
 I am currently open to job offers and research collaborations (Remote preferred).
 
